@@ -17,7 +17,7 @@ function getCurrency() {
       let inputValue = input.value;
       result.innerHTML = inputValue + ' ' + value1 + ' = ' + (inputValue * obj.mid / obj2.mid).toFixed(2) + ' ' + value2;
     })
-    
+
 }
 getCurrency();
 
