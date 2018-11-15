@@ -1,9 +1,9 @@
-let input = document.querySelector('input');
-let select1 = document.getElementById('from');
-let arrow = document.getElementById('arrow');
-let select2 = document.getElementById('to');
-let buttonOut = document.getElementById('out');
-let result = document.querySelector('output');
+const input = document.querySelector('input');
+const select1 = document.getElementById('from');
+const arrow = document.getElementById('arrow');
+const select2 = document.getElementById('to');
+const buttonOut = document.getElementById('out');
+const result = document.querySelector('output');
 
 function getCurrency() {
   fetch('http://api.nbp.pl/api/exchangerates/tables/a/?format=json')
