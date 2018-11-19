@@ -1,100 +1,32 @@
 <!DOCTYPE html>
-<html lang = "en-US">
+<html lang="en-US">
+
 <head>
   <meta charset="utf-8" />
-  <meta name = "viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Currency calculator</title>
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-  <link rel ="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
 </head>
+
 <body>
 
   <div class="main-bucket">
     <form>
       <h1>Currency Calculator</h1>
-      <label>I want to convert <input type = "number" /></label><br />
-      <label>from <select id ="from">
-        <option value ="USD">USD - US Dollar</option>
-        <option value ="THB">THB - Baht</option>
-        <option value ="AUD">AUD - Australian Dollar</option>
-        <option value ="HKD">HKD - Hong Kong Dollar</option>
-        <option value ="CAD">CAD - Canadian Dollar</option>
-        <option value ="NZD">NZD - New Zealand Dollar</option>
-        <option value ="SGD">SGD - Singapore Dollar</option>
-        <option value ="EUR">EUR - Euro</option>
-        <option value ="HUF">HUF - Forint</option>
-        <option value ="CHF">CHF - Swiss Franc</option>
-        <option value ="GBP">GBP - British Pound</option>
-        <option value ="UAH">UAH - Hryvnia</option>
-        <option value ="JPY">JPY - Yen</option>
-        <option value ="CZK">CZK - Czech Koruna</option>
-        <option value ="DKK">DKK - Danish Krone</option>
-        <option value ="ISK">ISK - Iceland Krona</option>
-        <option value ="NOK">NOK - Norwegian Krone</option>
-        <option value ="SEK">SEK - Swedish Krona</option>
-        <option value ="HRK">HRK - Kuna</option>
-        <option value ="RON">RON - Romanian Leu</option>
-        <option value ="BGN">BGN - Bulgarian Lev</option>
-        <option value ="TRY">TRY - Turkish Lira</option>
-        <option value ="ILS">ILS - New Israeli Shekel</option>
-        <option value ="CLP">CLP - Chilean Peso</option>
-        <option value ="MXN">MXN - Mexican Peso</option>
-        <option value ="PHP">PHP - Philippine Piso</option>
-        <option value ="ZAR">ZAR - Rand</option>
-        <option value ="BRL">BRL - Brazilian Real</option>
-        <option value ="MYR">MYR - Malaysian Ringgit</option>
-        <option value ="RUB">RUB - Russian Ruble</option>
-        <option value ="IDR">IDR - Rupiah</option>
-        <option value ="INR">INR - Indian Rupee</option>
-        <option value ="KRW">KRW - Won</option>
-        <option value ="CNY">CNY - Yuan Renminbi</option>
-        <option value ="XDR">XDR - SDR Int'l Monetary Fund (I.M.F.)</option>
-      </select> </label>
-      <button id = "arrow" type="button">&laquo; &raquo;</button><br />
-      <label>to <select id = "to">
-        <option value ="NOK">NOK - Norwegian Krone</option>
-        <option value ="THB">THB - Baht</option>
-        <option value ="USD">USD - US Dollar</option>
-        <option value ="AUD">AUD - Australian Dollar</option>
-        <option value ="HKD">HKD - Hong Kong Dollar</option>
-        <option value ="CAD">CAD - Canadian Dollar</option>
-        <option value ="NZD">NZD - New Zealand Dollar</option>
-        <option value ="SGD">SGD - Singapore Dollar</option>
-        <option value ="EUR">EUR - Euro</option>
-        <option value ="HUF">HUF - Forint</option>
-        <option value ="CHF">CHF - Swiss Franc</option>
-        <option value ="GBP">GBP - British Pound</option>
-        <option value ="UAH">UAH - Hryvnia</option>
-        <option value ="JPY">JPY - Yen</option>
-        <option value ="CZK">CZK - Czech Koruna</option>
-        <option value ="DKK">DKK - Danish Krone</option>
-        <option value ="ISK">ISK - Iceland Krona</option>
-        <option value ="SEK">SEK - Swedish Krona</option>
-        <option value ="HRK">HRK - Kuna</option>
-        <option value ="RON">RON - Romanian Leu</option>
-        <option value ="BGN">BGN - Bulgarian Lev</option>
-        <option value ="TRY">TRY - Turkish Lira</option>
-        <option value ="ILS">ILS - New Israeli Shekel</option>
-        <option value ="CLP">CLP - Chilean Peso</option>
-        <option value ="MXN">MXN - Mexican Peso</option>
-        <option value ="PHP">PHP - Philippine Piso</option>
-        <option value ="ZAR">ZAR - Rand</option>
-        <option value ="BRL">BRL - Brazilian Real</option>
-        <option value ="MYR">MYR - Malaysian Ringgit</option>
-        <option value ="RUB">RUB - Russian Ruble</option>
-        <option value ="IDR">IDR - Rupiah</option>
-        <option value ="INR">INR - Indian Rupee</option>
-        <option value ="KRW">KRW - Won</option>
-        <option value ="CNY">CNY - Yuan Renminbi</option>
-        <option value ="XDR">XDR - SDR Int'l Monetary Fund (I.M.F.)</option>
-      </select></label>
-      <button id = "out" type="button">Convert</button><br />
-      <label><output name ="result">
-      </output></label>
-
-
+      <label>I want to convert <input type="number" /></label><br />
+      <label>from <select id="from">
+        </select> </label>
+      <button id="arrow" type="button">&laquo; &raquo;</button><br />
+      <label>to <select id="to">
+        </select></label>
+      <button id="out" type="button">Convert</button><br />
+      <label><output name="result">
+        </output></label>
     </form>
-  </div><!--.main-bucket-->
+  </div>
+  <!--.main-bucket-->
   <script src="main.js"></script>
 </body>
+
 </html>

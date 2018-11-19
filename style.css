@@ -9,7 +9,7 @@ body {
   font-size: 1.2em;
 }
 
-input, textarea, select, button  {
+input, textarea, select, button {
   font-family: 'Karla', sans-serif;
   color: #595857;
   font-size: 1.2em;
@@ -36,7 +36,7 @@ input[type=number], select {
   font-size: 1.2em;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
@@ -56,9 +56,11 @@ button {
   body, input[type=number], select, button {
     font-size: 1.1em;
   }
+
   form {
     margin: 6%;
   }
+
   input[type=number], select {
     width: 70%;
   }
