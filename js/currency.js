@@ -1,4 +1,4 @@
-obj = {
+const obj = {
   'USD': 'USD - US Dollar',
   'EUR': 'EUR - Euro',
   'GBP': 'GBP - British Pound',

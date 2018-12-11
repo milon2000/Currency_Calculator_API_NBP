@@ -36,12 +36,17 @@ input[type=number], select {
   font-size: 1.2em;
 }
 
+select, button, output {
+  white-space: pre;
+}
+
 h1 {
   text-align: center;
 }
 
 output {
   font-size: 1.2em;
+  display: block;
 }
 
 button {
