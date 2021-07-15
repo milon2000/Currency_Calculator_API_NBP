@@ -32,7 +32,7 @@ window.onload = function() {
   createOptions();
 
   function rates() {
-    fetch('http://api.nbp.pl/api/exchangerates/tables/a/?format=json')
+    fetch('https://api.nbp.pl/api/exchangerates/tables/a/?format=json')
       .then(resp => resp.json())
       .then(resp => {
         const rates = resp[0].rates;
