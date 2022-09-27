@@ -1,3 +1,3 @@
 Currency calculator in plain JavaScript with JSON data from NBP API.
 
-demo: http://designedbymila.com/calculator/
+demo: peaceful-hopper-8e8c3e.netlify.app/
